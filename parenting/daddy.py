@@ -40,7 +40,6 @@ Cheers and keep it up.
         # print info
         print (info_section)
 
-
     # define advice function
     def get_advice(self):
 
