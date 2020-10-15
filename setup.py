@@ -3,7 +3,7 @@ from setuptools import setup
 import parenting
 
 # read in README.md
-with open("description.md", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 # catch the version
