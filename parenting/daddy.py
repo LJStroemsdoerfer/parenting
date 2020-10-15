@@ -54,7 +54,7 @@ Cheers and keep it up.
 
         # check if fed properly
         fed = input(str("Was your " + sex + 
-                        " fed properly in the last 1.5 hours? (yes/no) "))
+                        " fed properly in the last 2 hours? (yes/no) "))
 
         # evaluate if baby is maybe hungry
         if fed=="no":
@@ -67,7 +67,7 @@ Cheers and keep it up.
 
         # check if slept properly
         slept = input(str("Has your " + sex +
-                          " slept properly in the last 4 hours? (yes/no) "))
+                          " slept properly in the last 1.5 hours? (yes/no) "))
 
         # evaluate if baby is maybe tired
         if slept=="no":
@@ -75,22 +75,23 @@ Cheers and keep it up.
             # suggest trying to put the baby to sleep
             msg.warn("Maybe your " + sex + " is tired and wants to sleep!")
 
-            # check if baby has problems falling asleep
-            sleep_issues = input(str("Has your " + sex +
-                                     " problems falling asleep? (yes/no) "))
-                
-            # check if baby needs some extra cuddling
-            if sleep_issues=="yes":
-
-                # print info
-                msg.info("Maybe some extra cuddling and singing might help")
-
-                # break out of function
-                return None
-
             # break out of function
             return None    
 
+        # check if baby is maybe bored
+        entertained = input(str("Is your " + sex + 
+                                " active and wants to interact? (yes/no)"))
         
+        # evaluate if baby might be bored
+        if entertained=="yes":
 
+            # suggest to talk to the baby
+            msg.warn("Maybe your " + sex +
+                     " is bored and you could sit down and have a chat.")
 
+            # break out of function
+            return None
+
+        # if nothing detected so far, give advice
+        msg.info(str("Your little " + sex +
+                " neither hungry, nor tired, nor bored, just cuddle!"))
