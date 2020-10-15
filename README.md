@@ -1,4 +1,4 @@
-# parenting - the Python way <img src="resources/logo.png" width=170 align="right" />
+# parenting - the Python way <img src="https://github.com/till-io/parenting/blob/main/resources/logo.png" width=170 align="right" />
 
 [![Version](https://img.shields.io/pypi/v/parenting.svg)](https://pypi.org/project/parenting/)
 [![License](https://img.shields.io/pypi/l/parenting.svg)](https://raw.githubusercontent.com/till-io/parenting/master/LICENSE)
@@ -29,7 +29,7 @@ Once you downloaded the library, you find a standard python interface. I impleme
 Ones the class is initiated, you get access to the <code>get_advice()</code> method. This will guide you through a dialog, in which we try to find your baby's problem together. I must admit, this is obviously simplified, yet inspired by ``So beruhige ich mein Baby`` an amazing book by <a href="https://www.verlagsgruppe-patmos.de/autor/christine-rankl-1968">Christine Rankl</a>. 
 
 <p align="center">
-  <img src="resources/parenting.png" width="700">
+  <img src="https://github.com/till-io/parenting/blob/main/resources/parenting.png" width="400">
 </p>
 
 The <code>get_advice()</code> method implements a bunch of criteria to check when your baby starts complaining. In the first three months, complaining is typically screaming rather than actively communicating what the exact problem is.
