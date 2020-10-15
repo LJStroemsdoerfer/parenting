@@ -19,5 +19,5 @@ setup(name='parenting',
       author='Lukas Jan Stroemsdoerfer',
       author_email='ljstroemsdoerfer@gmail.com',
       license='MIT',
-      packages=['productionize'],
+      packages=['parenting'],
       zip_safe=False)
