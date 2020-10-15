@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# sketch files
+*.sketch
+
 # C extensions
 *.so
 
